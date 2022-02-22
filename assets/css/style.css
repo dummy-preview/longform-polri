@@ -7773,20 +7773,20 @@ div#umkm1 {
     }
     .game__soap-img {
         width: 120px;
-        top: -1em;
-        left: -62em;
+        top: 11em;
+        left: -16em;
     }
     .game__bubble--1 {
-        left: -64em;
-        top: -6em;
+        left: -13em;
+        top: 8em;
     }
     .game__bubble--2 {
-        right: 53em;
-        top: -5em;
+        right: 8em;
+        top: 9em;
     }
     .game__bubble--3 {
-        left: -60em;
-        top: -5em;
+        left: -19em;
+        top: 8em;
     }
     .result {
         width: 320px;
