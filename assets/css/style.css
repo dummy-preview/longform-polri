@@ -8906,59 +8906,8 @@ div#umkm1 {
         width: 124px;
         margin: 25px auto;
     }
-}
-
-@media (max-width: 320px) {
-    section.scene6 .scene6__content .scene6__content--text2 {
-        font-size: 29px;
-        line-height: 42px;
-    }
-    .faq-list .list-header:after {
-        top: 13px;
-        right: -6px;
-    }
-    .sub-menu {
-        font-size: 14px;
-        line-height: 23px;
-    }
-    .faq-list .list-header {
-        font-size: 14px;
-        padding: 5px 10px 5px 0px;
-    }
-    .faq-list .list-header2 {
-        font-size: 14px;
-    }
-    .s2__modal .modalContent .modalContent__wrap .modalContent__wrap--text3 {
-        font-size: 14px;
-        line-height: 21px;
-        margin-top: -15%;
-    }
-    .s2__modal .modalContent .modalContent__wrap .modalContent__wrap--text {
-        width: 100%;
-        font-size: 16px;
-        line-height: 21px;
-        margin-right: 0px;
-        margin-top: 0px;
-        text-align: center;
-    }
-    section.scene5 #graduation {
-        width: 220px;
-    }
-    .scene2Page3__content--left {
-        padding-top: 120%;
-    }
-    .frame {
-        height: 78vh;
-    }
-    .scene3Page4__content__itemimg .itemImg2 {
-        margin-top: 53%;
-        right: 0px;
-    }
-    .scene3Page4__content__itemimg .itemImg3 {
-        margin-top: 114%;
-        right: 23%;
+    .page4-S3__text--persen {
+        font-size: 30px;
+        line-height: 40px;
     }
 }
-
-
-/*# sourceMappingURL=style.css.map */
