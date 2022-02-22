@@ -567,7 +567,6 @@ li.J_list:hover {
     padding: 5px 0 5px 0px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Futura Md BT';
     font-size: 28px;
     color: #fff;
 }
@@ -577,7 +576,6 @@ li.J_list:hover {
     padding: 5px 0 5px 0px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Futura Md BT';
     font-size: 28px;
     color: #fff;
 }
@@ -597,7 +595,6 @@ li.J_list:hover {
 }
 
 .sub-menu {
-    font-family: 'Futura Bk BT';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -1705,7 +1702,7 @@ label.virus__button.virus__button--5 {
 .game__soap-img {
     width: 300px;
     position: absolute;
-    top: 21em;
+    top: 3em;
     left: -3em;
 }
 
@@ -1743,7 +1740,7 @@ label.virus__button.virus__button--5 {
     /* left: -9em;
     top: 18em; */
     left: 6em;
-    top: 18em;
+    top: 0em;
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     transform: scale(0.6);
@@ -1754,7 +1751,7 @@ label.virus__button.virus__button--5 {
     /* right: 0em;
     top: 13em; */
     right: -10em;
-    top: 18em;
+    top: 0em;
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     transform: scale(0.6);
@@ -1765,7 +1762,7 @@ label.virus__button.virus__button--5 {
     /* left: -3em;
     top: 13em; */
     left: 1em;
-    top: 14em;
+    top: 3em;
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     transform: scale(0.6);
@@ -5087,7 +5084,6 @@ div#umkm1 {
 
 .titlemobile {
     color: #fff;
-    font-family: 'Futura Hv BT';
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -5683,6 +5679,24 @@ div#umkm1 {
         font-size: 45px;
         line-height: 55px;
     }
+    .game__soap-img {
+        width: 300px;
+        position: absolute;
+        top: -1em;
+        left: -3em;
+    }
+    .game__bubble--1 {
+        left: 6em;
+        top: -4em;
+    }
+    .game__bubble--2 {
+        right: -10em;
+        top: -6em;
+    }
+    .game__bubble--3 {
+        left: 1em;
+        top: -3em;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -5938,7 +5952,7 @@ div#umkm1 {
     }
     .game__soap-img {
         width: 195px;
-        top: 21em;
+        top: -1em;
         left: 0em;
     }
     .result {
@@ -6268,19 +6282,20 @@ div#umkm1 {
     }
     .game__soap-img {
         width: 195px;
-        top: 21em;
+        top: -6em;
         left: -2em;
     }
     .game__bubble--3 {
         left: 0em;
-        top: 13em;
+        top: -8em;
     }
     .game__bubble--2 {
-        right: -8em;
-        top: 13em;
+        right: -9em;
+        top: -9em;
     }
     .game__bubble--1 {
         left: -3em;
+        top: -12em;
     }
     /* page2 polwan */
     .text-content {
@@ -6813,6 +6828,23 @@ div#umkm1 {
         left: -5em;
         top: 10px;
     }
+    .game__soap-img {
+        width: 195px;
+        top: 4em;
+        left: -14em;
+    }
+    .game__bubble--1 {
+        left: -17em;
+        top: 0em;
+    }
+    .game__bubble--2 {
+        right: 0em;
+        top: 2em;
+    }
+    .game__bubble--3 {
+        left: -10em;
+        top: -1em;
+    }
 }
 
 @media (max-width: 823px) and (orientation: landscape) {
@@ -7290,6 +7322,23 @@ div#umkm1 {
     .page4-S14__item--mockup {
         text-align: center;
     }
+    .game__soap-img {
+        width: 195px;
+        top: 5em;
+        left: -51em;
+    }
+    .game__bubble--1 {
+        left: -54em;
+        top: 0em;
+    }
+    .game__bubble--2 {
+        right: 36em;
+        top: 0em;
+    }
+    .game__bubble--3 {
+        left: -47em;
+        top: -1em;
+    }
 }
 
 @media (max-width: 500px) {
@@ -7718,32 +7767,26 @@ div#umkm1 {
     .game__virus-img--10 {
         width: 2em;
     }
+    .game__bubble {
+        height: 120px;
+        width: 120px;
+    }
     .game__soap-img {
         width: 120px;
-        top: 18em;
-        left: -16em;
+        top: -1em;
+        left: -62em;
     }
     .game__bubble--1 {
-        left: -21em;
-        bottom: 34em;
-        top: 13em;
-        -webkit-transform: scale(0.3);
-        -moz-transform: scale(0.3);
-        transform: scale(0.3);
+        left: -64em;
+        top: -6em;
     }
     .game__bubble--2 {
-        right: 5em;
-        top: 11em;
-        -webkit-transform: scale(0.3);
-        -moz-transform: scale(0.3);
-        transform: scale(0.3);
+        right: 53em;
+        top: -5em;
     }
     .game__bubble--3 {
-        left: -17em;
-        top: 11em;
-        -webkit-transform: scale(0.3);
-        -moz-transform: scale(0.3);
-        transform: scale(0.3);
+        left: -60em;
+        top: -5em;
     }
     .result {
         width: 320px;
