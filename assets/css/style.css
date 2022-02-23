@@ -36,12 +36,12 @@ img {
 }
 
  ::selection {
-    background: #FFE578;
+    background: #fdc109;
     color: #fff;
 }
 
  ::-moz-selection {
-    background: #FFE578;
+    background: #fdc109;
     color: #fff;
 }
 
@@ -56,7 +56,7 @@ img {
 }
 
  ::-webkit-scrollbar-thumb {
-    background-color: #FFE578;
+    background-color: #fdc109;
 }
 
 h1,
@@ -795,6 +795,22 @@ li.J_list:hover {
     animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
 }
 
+.page4-S1 .Scroll {
+    width: 53px;
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    pointer-events: none;
+    animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
+}
+
+.slide-top {
+    animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
+}
+
 .cover .logo__polri {
     position: absolute;
     top: 7%;
@@ -961,7 +977,15 @@ li.J_list:hover {
     line-height: 70px;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 150px;
+}
+
+.content2__title2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
 }
 
 .virus {
@@ -1069,43 +1093,82 @@ li.J_list:hover {
 label.virus__button.virus__button--1 {
     position: absolute;
     left: 15em;
-    /* cursor: url(../images/section2/result.png), auto; */
-    /* cursor: url(https://cdn-3.tstatic.net/ads/tes/07022022/syringe.png), auto; */
+    animation: slide-top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
+}
+
+label.virus__button.virus__button--1 img {
+    transition: 0.2s;
+}
+
+label.virus__button.virus__button--1 img:hover {
+    transform: rotate(360deg);
+    transition: 0.2s;
 }
 
 label.virus__button.virus__button--2 {
     position: absolute;
-    left: 29em;
-    top: 60vh;
+    left: 35em;
+    top: 65vh;
+    width: 11em;
+    animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
 }
 
 label.virus__button.virus__button--2 img {
-    transform: scale(0.5);
+    transition: 0.2s;
+}
+
+label.virus__button.virus__button--2 img:hover {
+    transform: rotate(360deg);
+    transition: 0.2s;
 }
 
 label.virus__button.virus__button--3 {
     position: absolute;
-    left: 52em;
+    left: 55em;
     top: 42vh;
+    animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
+    width: 15em;
 }
 
 label.virus__button.virus__button--3 img {
-    transform: scale(0.8);
+    transition: 0.2s;
+}
+
+label.virus__button.virus__button--3 img:hover {
+    transform: rotate(360deg);
+    transition: 0.2s;
 }
 
 label.virus__button.virus__button--4 {
     position: absolute;
     right: 40em;
     top: 59vh;
+    animation: slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
+    width: 13em;
 }
 
 label.virus__button.virus__button--4 img {
-    transform: scale(0.7);
+    transition: 0.2s;
+}
+
+label.virus__button.virus__button--4 img:hover {
+    transform: rotate(360deg);
+    transition: 0.2s;
 }
 
 label.virus__button.virus__button--5 {
     position: absolute;
     right: 15em;
+    animation: slide-top 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
+}
+
+label.virus__button.virus__button--5 img {
+    transition: 0.2s;
+}
+
+label.virus__button.virus__button--5 img:hover {
+    transform: rotate(360deg);
+    transition: 0.2s;
 }
 
 
@@ -4636,7 +4699,7 @@ section {
 }
 
 .box__contentS4 {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     width: 80vw;
     height: 70vh;
     border-radius: 50px;
@@ -4997,13 +5060,51 @@ section {
     transition: 0.2s;
 }
 
-.page4-S14__cta img:hover {
+
+/* .page4-S14__cta img:hover {
     transform: scale(0.95);
-}
+} */
 
 .page4-S14__item--playstore {
     width: 200px;
     margin: 0px auto;
+}
+
+.topik-lainnya {
+    height: auto;
+}
+
+.topik-wrap {
+    height: auto;
+    width: 100vw;
+    margin: 5em 0px;
+}
+
+.topik-item {
+    width: 115px;
+    margin: 0px 38px;
+}
+
+.topik-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 14px;
+}
+
+.topik__title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.topik-home {
+    padding: 0;
 }
 
 .m-backtotop {
@@ -5013,7 +5114,7 @@ section {
     right: 20px;
     width: 50px;
     height: 50px;
-    background: #FFE578;
+    background: #fdc109;
     border-radius: 25px;
     text-align: center;
     border: 2px solid #fff;
@@ -5063,7 +5164,7 @@ section {
 .m-backtotop:hover {
     transform: scale(1.1);
     cursor: pointer;
-    background: #FFE578;
+    background: #fdc109;
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -5273,17 +5374,16 @@ div#umkm1 {
         left: 9em;
     }
     .content2__title {
-        margin-bottom: 90px;
         font-size: 46px;
         line-height: 57px;
     }
     label.virus__button.virus__button--2 {
         left: 29em;
-        top: 74vh;
+        top: 86vh;
     }
     label.virus__button.virus__button--4 {
         right: 35em;
-        top: 71vh;
+        top: 84vh;
     }
     label.virus__button.virus__button--3 {
         left: 43em;
@@ -5702,6 +5802,9 @@ div#umkm1 {
         left: 1em;
         top: -3em;
     }
+    .topik-item {
+        width: 115px;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -5744,7 +5847,7 @@ div#umkm1 {
     }
     label.virus__button.virus__button--4 {
         right: 29em;
-        top: 74vh;
+        top: 84vh;
     }
     .content2 {
         height: 127vh;
@@ -5870,6 +5973,9 @@ div#umkm1 {
     .S4-10 {
         width: 70vw;
     }
+    .topik-item {
+        width: 115px;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -5899,12 +6005,16 @@ div#umkm1 {
         left: 4%;
     }
     label.virus__button.virus__button--2 {
-        left: 24em;
-        top: 76vh;
+        left: 28em;
+        top: 88vh;
     }
     label.virus__button.virus__button--3 {
         left: 35em;
         top: 45vh;
+    }
+    label.virus__button.virus__button--4 {
+        right: 35em;
+        top: 84vh;
     }
     .content2__title {
         font-size: 45px;
@@ -6265,6 +6375,9 @@ div#umkm1 {
         width: 80vw;
         height: 85vh;
     }
+    .topik-item {
+        width: 115px;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -6279,8 +6392,8 @@ div#umkm1 {
         right: 6em;
     }
     label.virus__button.virus__button--4 {
-        right: 23em;
-        top: 76vh;
+        right: 26em;
+        top: 88vh;
     }
     .content6__wrap {
         width: 1250px;
@@ -6349,6 +6462,9 @@ div#umkm1 {
     .page4-S12__title {
         margin-bottom: 80px;
     }
+    .topik-item {
+        width: 115px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -6404,18 +6520,19 @@ div#umkm1 {
         right: 7em;
         width: 12em;
     }
-    label.virus__button.virus__button--4 img {
-        transform: scale(0.5);
-    }
     label.virus__button.virus__button--4 {
-        right: 14em;
+        right: 21em;
         top: 72vh;
+        width: 8em;
     }
-    label.virus__button.virus__button--3 img {
-        transform: scale(0.54);
+    label.virus__button.virus__button--3 {
+        width: 8em;
+        left: 29em;
+        top: 55vh;
     }
-    label.virus__button.virus__button--2 img {
-        transform: scale(0.3);
+    label.virus__button.virus__button--2 {
+        width: 7em;
+        top: 75vh;
     }
     .content3__title {
         font-size: 36px;
@@ -6835,7 +6952,7 @@ div#umkm1 {
     }
     .page4-S8__icon {
         position: absolute;
-        left: -5em;
+        left: -4em;
         top: 10px;
     }
     .game__soap-img {
@@ -6854,6 +6971,9 @@ div#umkm1 {
     .game__bubble--3 {
         left: -10em;
         top: -1em;
+    }
+    .topik-item {
+        width: 115px;
     }
 }
 
@@ -6881,7 +7001,7 @@ div#umkm1 {
         line-height: 40px;
     }
     label.virus__button.virus__button--3 {
-        left: 17em;
+        left: 25em;
         top: 41vh;
     }
     label.virus__button.virus__button--2 {
@@ -7349,6 +7469,9 @@ div#umkm1 {
         left: -47em;
         top: -1em;
     }
+    .topik-home {
+        padding: 0;
+    }
 }
 
 @media (max-width: 500px) {
@@ -7478,34 +7601,37 @@ div#umkm1 {
     .content2__title {
         font-size: 18px;
         line-height: 28px;
-        margin-bottom: 40px;
+    }
+    .content2__title2 {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 45px;
+        padding-top: 10px;
     }
     label.virus__button.virus__button--1 {
         width: 7em;
-        left: 2em;
+        left: 3em;
     }
     label.virus__button.virus__button--2 {
-        left: 11em;
-        top: 24vh;
+        left: 2em;
+        top: 71vh;
+        width: 4em;
     }
     label.virus__button.virus__button--3 {
-        left: -3em;
-        top: 41vh;
-    }
-    label.virus__button.virus__button--3 img {
-        transform: scale(0.3);
+        left: 9em;
+        top: 55vh;
     }
     label.virus__button.virus__button--4 {
-        right: -3em;
-        top: 51vh;
-    }
-    label.virus__button.virus__button--4 img {
-        transform: scale(0.4);
+        right: 2em;
+        top: 37vh;
+        width: 6em;
     }
     label.virus__button.virus__button--5 {
-        right: 14em;
+        right: 7em;
         width: 5em;
-        top: 78vh;
+        top: 84vh;
     }
     .content3__title {
         font-size: 18px;
@@ -8933,5 +9059,17 @@ div#umkm1 {
     }
     .content9 {
         height: 95vh;
+    }
+    .topik__title {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 3em;
+    }
+    .topik-item {
+        width: 85px;
+        margin-bottom: 10px;
+    }
+    .topik-wrap {
+        margin: 2em 0px;
     }
 }
